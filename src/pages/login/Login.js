@@ -1,5 +1,6 @@
 import React from "react";
 import "./Login.css"
+import google from '../../assets/google.png';
 
 const Login = () => {
   return (
@@ -21,7 +22,10 @@ const Login = () => {
       </div>
 
       <div className="loginGoogle">
-
+        <button className="loginGoogleBtn">
+          <img src = {google} className="loginImg"></img>
+          <span className="loginSpan">Google 계정으로 로그인</span>
+        </button>
       </div>
     </div>
   );
