@@ -11,7 +11,7 @@ const Routers = () => {
         {/* Link는 개발의 편의를 위해 임시로 만든 링크입니다. */}
         <Link to="/">(메인페이지) </Link>
         <Link to="/hiring"> (채용페이지) </Link>
-        <Link to="/login"> (메인페이지) </Link>
+        <Link to="/login"> (로그인) </Link>
         <Link to="/signup"> (회원가입) </Link>
 
         <Routes>
