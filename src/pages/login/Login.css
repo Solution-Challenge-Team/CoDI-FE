@@ -1,0 +1,38 @@
+.LoginPage{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.loginTitle{
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.loginInput{
+  display: flex;
+  flex-direction: column;
+}
+
+.loginEmail, .loginPassword{
+  font-size: 17px;
+  width: 254px;
+  height: 42px;
+  border-radius: 8px;
+  border: 1px solid #C4C4C4;
+  padding-left: 13px;
+  margin-bottom: 12px;
+}
+
+.loginBtn{
+  width: 254px;
+  height: 42px;
+  color: white;
+  font-size: 17px;
+  background-color: #00A9FF;
+  border-radius: 8px;
+  border: 1px solid #C4C4C4;
+  margin-top: 10px;
+}

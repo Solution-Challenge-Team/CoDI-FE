@@ -1,4 +1,5 @@
 import React from "react";
+import "./Login.css"
 
 const Login = () => {
   return (
@@ -8,9 +9,9 @@ const Login = () => {
       </div>
 
       <div className="loginInput">
-        <input type = "text" placeholder="이메일"/>
-        <input type = "password" placeholder="비밀번호"/>
-        <button>로그인</button>
+        <input className="loginEmail" type = "text" placeholder="이메일"/>
+        <input className="loginPassword" type = "password" placeholder="비밀번호"/>
+        <button className="loginBtn">로그인</button>
       </div>
     </div>
   );
