@@ -36,3 +36,45 @@
   border: 1px solid #C4C4C4;
   margin-top: 10px;
 }
+
+.loginSep{
+  display: flex;
+  margin-top: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.customHr {
+  width: 100px;
+  margin: 12px;
+  border-bottom: 1px solid #C4C4C4;
+}
+
+.orText{
+  font-size: 13px;
+  color: #8B8B8B;
+  font-weight: 400;
+}
+
+.loginGoogleBtn{
+  width: 254px;
+  height: 42px;
+  border-radius: 8px;
+  border: 1px solid #C4C4C4;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 25px;
+}
+
+.loginImg{
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+}
+
+.loginSpan{
+  font-size: 17px;
+  font-weight: 400;
+}
