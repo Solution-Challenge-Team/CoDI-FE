@@ -36,3 +36,22 @@
   border: 1px solid #C4C4C4;
   margin-top: 10px;
 }
+
+.loginSep{
+  display: flex;
+  margin-top: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.customHr {
+  width: 100px;
+  margin: 12px;
+  border-bottom: 1px solid #C4C4C4;
+}
+
+.orText{
+  font-size: 13px;
+  color: #8B8B8B;
+  font-weight: 400;
+}
