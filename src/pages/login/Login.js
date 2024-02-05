@@ -27,6 +27,10 @@ const Login = () => {
           <span className="loginSpan">Google 계정으로 로그인</span>
         </button>
       </div>
+
+      <div className="loginSignup">
+        회원가입
+      </div>
     </div>
   );
 };
