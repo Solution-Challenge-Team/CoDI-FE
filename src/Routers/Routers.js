@@ -3,6 +3,8 @@ import Main from "pages/main/Main";
 import Signup from "pages/signup/Signup";
 import Login from "pages/login/Login";
 import Hiring from "pages/hiring/Hiring";
+import Community from "pages/community/Community";
+import Nav from "../layout/nav/Nav";
 
 const Routers = () => {
   return (
@@ -13,12 +15,13 @@ const Routers = () => {
         <Link to="/hiring"> (채용페이지) </Link>
         <Link to="/login"> (로그인) </Link>
         <Link to="/signup"> (회원가입) </Link>
-
+        <Nav />
         <Routes>
           <Route path="/" element={<Main />} />
           <Route path="/login" element={<Login />} />
           <Route path="/signup" element={<Signup />} />
           <Route path="/hiring" element={<Hiring />} />
+          <Route path="/community" element={<Community />} />
           {/* <Route path="*" element={<ErrorPage />} /> */}
         </Routes>
       </Router>

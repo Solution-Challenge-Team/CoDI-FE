@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import ListBar from "components/listBar/ListBar";
 
 // props 타입지정
 interface HiringComponentProps {
@@ -18,7 +17,14 @@ const HiringComponent: React.FC<HiringComponentProps> = (props) => {
           </Link>
         </div>
       </div>
-      <ListBar />
+      {/* {props.data.map((it) => (
+        <div>
+          <a href="it.url">
+            <h6>{it.title}</h6>
+            <p>{it.content}</p>
+          </a>
+        </div>
+      ))} */}
     </div>
   );
 };
