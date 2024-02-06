@@ -29,3 +29,31 @@
   right: 0;
   bottom: 0;
 }
+
+.signupInput{
+  margin-top: 20px;
+}
+
+.signupEmailDiv, .signupPasswordDiv, .signupNicknameDiv{
+  margin: 20px 0;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  border-bottom: 1px solid #C4C4C4;
+  padding-bottom: 20px;
+}
+
+.signemailSpan, .signpasswordSpan, .signnickNameSpan{
+  font-size: 17px;
+  font-weight: 400;
+}
+
+.signupEmail, .signupPassword, .signupNickName{
+  width: 253px;
+  height: 42px;
+  border-radius: 8px;
+  border: 1px solid #C4C4C4;
+  text-align: right;
+  margin-left: 50px;
+  font-size: 17px;
+}
