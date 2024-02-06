@@ -1,8 +1,14 @@
-import Nav from "layout/Nav";
-import Footer from "layout/Footer";
+import Nav from "layout/nav/Nav";
+import Footer from "layout/footer/Footer";
 import HiringComponent from "components/hiringComponents/HiringComponent";
 
 const Hiring: React.FC = () => {
+  const hiringData = async () => {
+    try {
+    } catch (err) {
+      console.error(err);
+    }
+  };
   return (
     <div>
       <Nav />
