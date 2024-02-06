@@ -57,3 +57,15 @@
   margin-left: 50px;
   font-size: 17px;
 }
+
+.signupBtn{
+  width: 254px;
+  height: 42px;
+  background-color: #00A9FF;
+  border-radius: 8px;
+  border: 1px solid #C4C4C4;
+  color: white;
+  font-size: 17px;
+  font-weight: 400;
+  margin-top: 25px;
+}
