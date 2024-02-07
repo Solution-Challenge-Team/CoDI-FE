@@ -4,24 +4,27 @@ import Signup from "pages/signup/Signup";
 import Login from "pages/login/Login";
 import Hiring from "pages/hiring/Hiring";
 import Community from "pages/community/Community";
+import Hospital from "pages/hospital/hospital";
 import Nav from "../layout/nav/Nav";
 
 const Routers = () => {
   return (
     <div>
       <Router>
+        <Nav />
         {/* Link는 개발의 편의를 위해 임시로 만든 링크입니다. */}
         <Link to="/">(메인페이지) </Link>
         <Link to="/hiring"> (채용페이지) </Link>
         <Link to="/login"> (로그인) </Link>
         <Link to="/signup"> (회원가입) </Link>
-        <Nav />
+        <Link to="/hospital"> (병원추천) </Link>
         <Routes>
           <Route path="/" element={<Main />} />
           <Route path="/login" element={<Login />} />
           <Route path="/signup" element={<Signup />} />
           <Route path="/hiring" element={<Hiring />} />
           <Route path="/community" element={<Community />} />
+          <Route path="/hospital" element={<Hospital />} />
           {/* <Route path="*" element={<ErrorPage />} /> */}
         </Routes>
       </Router>
