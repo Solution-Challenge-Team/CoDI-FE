@@ -5,11 +5,18 @@
   margin-top: 50px;
 }
 
-.hospitalLocation{
+.classification{
   display: flex;
+  justify-content: space-between;
 }
 
-.locationSpan{
+.hospitalLocation, .hospitalSymptom{
+  display: flex;
+  flex: 1;
+  margin: 0 20px;
+}
+
+.locationSpan, .symptomSpan{
   display: flex;
   background-color: #D2F7FF;
   color: #495057;
@@ -20,7 +27,7 @@
   align-items: center;
 }
 
-.locationSelect{
+.locationSelect, .symptomSelect{
   width: 100px;
   margin-left: 10px;
 }
