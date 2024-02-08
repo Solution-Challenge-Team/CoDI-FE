@@ -27,6 +27,14 @@ const Hospital = () => {
       symptom: "정신 장애",
       evaluation: 2.5,
       img: hospitalMain
+    },
+    {
+      id: 4,
+      hospital: "세브란스병원",
+      address: "서울특별시 서대문구 신촌동 연세로 50-1",
+      symptom: "기타",
+      evaluation: 1.0,
+      img: hospitalMain
     }
   ]
 
