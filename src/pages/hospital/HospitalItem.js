@@ -1,3 +1,4 @@
+import './hospital.css';
 const HospitalItem = ({id, hospital, address, symptom, evaluation, img}) =>{
   return(
     <div className="hospitalItem">
@@ -6,7 +7,7 @@ const HospitalItem = ({id, hospital, address, symptom, evaluation, img}) =>{
       <p>address: {address}</p>
       <p>symptom: {symptom}</p>
       <p>evaluation: {evaluation}</p>
-      <img src={img} alt="main"/>
+      <img src={img} alt="hospitalmain" className='hospitalMainImg'/>
     </div>
   )
 }

@@ -1,3 +1,4 @@
+import './hospital.css';
 import HospitalItem from './HospitalItem';
 const HospitalList = ({hospitalList}) =>{
   return (

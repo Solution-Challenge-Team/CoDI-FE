@@ -66,6 +66,9 @@ const Hospital = () => {
       </div>
 
       <div className='hospitalList'>
+        <div className='hospitalRecommend'>
+          추천 병원
+        </div>
         <HospitalList hospitalList = {dummyList}/>
       </div>
     </div>
