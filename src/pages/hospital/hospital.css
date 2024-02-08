@@ -59,5 +59,11 @@
 .hospitalName{
   font-size: 16px;
   font-weight: 700;
-  margin: 7px;
+  margin: 7px 0 0 10px;
+}
+
+.hospitalAddress{
+  font-size: 14px;
+  font-weight: 300;
+  margin: 10px 0 0 10px;
 }
