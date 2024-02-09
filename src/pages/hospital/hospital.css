@@ -40,6 +40,15 @@
 }
 
 /*hospitalList와 Item*/
+.hospitalList {
+  display: grid;
+  grid-template-columns: repeat(4, 0fr);
+
+  @media screen and (max-width: 1024px) {
+    grid-template-columns: repeat(2, 0fr);
+  }
+}
+
 .hospitalItem{
   width: 400px;
   height: 360px;
