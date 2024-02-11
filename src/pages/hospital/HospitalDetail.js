@@ -30,6 +30,12 @@ const HospitalDetail = ({}) => {
             <span className='likeNum'>0</span>
           </div>
         </div>
+
+        <div className='detailinfoSub'>
+          <div className='detailAddress'>
+            {state.address}
+          </div>
+        </div>
       </div>
     </div>
   );
