@@ -35,6 +35,9 @@ const HospitalDetail = ({}) => {
           <div className='detailAddress'>
             {state.address}
           </div>
+          <div className='detailImg'>
+            <img src = {state.img} className='detailhospitalImg'></img>
+          </div>
         </div>
       </div>
     </div>

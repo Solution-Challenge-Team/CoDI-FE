@@ -32,7 +32,7 @@
 }
 
 .detailhospitalInfo{
-  margin: 20px 446px;
+  margin: 20px 550px;
 }
 
 .detailinfo{
@@ -64,4 +64,13 @@
 
 .detailAddress{
   font-size: 17px;
+}
+
+.detailImg{
+  margin-top: 20px;
+}
+
+.detailhospitalImg{
+  width: 640px;
+  height: 360px;
 }
