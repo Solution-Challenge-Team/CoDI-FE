@@ -1,6 +1,9 @@
 import { useLocation } from 'react-router-dom';
 import './hospitalDetail.css';
 
+import heart_red from '../../assets/heart_red.png';
+import heart_black from '../../assets/heart_black.png';
+
 const HospitalDetail = ({}) => {
   const { state } = useLocation();
   console.log(state)
@@ -20,8 +23,12 @@ const HospitalDetail = ({}) => {
       </div>
 
       <div className='detailhospitalInfo'>
-        <div className='detailinfoName'>
+        <div className='detailinfo'>
           <span className='detailName'>{state.hospital}</span>
+          <div className='detailLike'>
+            <img src = {heart_black} className='likeImg'></img>
+            <span className='likeNum'>0</span>
+          </div>
         </div>
       </div>
     </div>
