@@ -3,7 +3,15 @@ import './hospital.css';
 const HospitalItem = ({id, hospital, address, symptom, evaluation, img}) =>{
   const navigate = useNavigate();
   const gotoDetail = () =>{
-    navigate(`/hospital/${id}`)
+    const state = {
+      id: id,
+      hospital: hospital,
+      address: address,
+      symptom: symptom,
+      evaluation: evaluation,
+      img: img
+    }
+    navigate(`/hospital/${id}`, {state})
   }
   return(
     <div className='hospitalItem' onClick={gotoDetail}>
