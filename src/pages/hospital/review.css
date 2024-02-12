@@ -12,3 +12,8 @@
   height: 100px !important;
   resize: none;
 }
+
+.reviewsymptomSelect{
+  width: 90px;
+  height: 30px;
+}
