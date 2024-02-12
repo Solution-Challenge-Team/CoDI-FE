@@ -33,6 +33,10 @@
   margin: 10px 0;
 }
 
+.reviewEvalTitle{
+  margin-right: 10px;
+}
+
 .reviewEvalInput{
   width: 50px;
   height: 25px;

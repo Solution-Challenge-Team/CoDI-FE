@@ -18,6 +18,7 @@ const ReviewEditor = () =>{
             <option value="etc">기타</option>
           </select>
           <div className='reviewEval'>
+            <span className='reviewEvalTitle'>별점: </span>
             <input className='reviewEvalInput'/>
             <span className='reviewEvalSpan'> / 5</span>
           </div>
