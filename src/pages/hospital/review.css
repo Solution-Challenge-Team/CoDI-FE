@@ -1,0 +1,14 @@
+.editorTitle{
+  margin: 20px 0 10px;
+}
+
+.editorTitleSpan{
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.reviewTextarea{
+  width: 450px !important; 
+  height: 100px !important;
+  resize: none;
+}

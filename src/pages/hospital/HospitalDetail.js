@@ -1,5 +1,6 @@
 import { useLocation } from 'react-router-dom';
 import './hospitalDetail.css';
+import ReviewEditor from './ReviewEditor.js';
 
 import heart_red from '../../assets/heart_red.png';
 import heart_black from '../../assets/heart_black.png';
@@ -38,6 +39,10 @@ const HospitalDetail = ({}) => {
           <div className='detailImg'>
             <img src = {state.img} className='detailhospitalImg'></img>
           </div>
+        </div>
+
+        <div className='detailReview'>
+           <ReviewEditor/>
         </div>
       </div>
     </div>
