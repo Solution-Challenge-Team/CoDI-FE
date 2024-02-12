@@ -7,13 +7,42 @@
   font-weight: 600;
 }
 
+.reviewInput{
+  display: flex;
+}
+
 .reviewTextarea{
   width: 450px !important; 
   height: 100px !important;
   resize: none;
 }
 
+.reviewSymptomEval{
+  margin-left: 5px;
+}
+
 .reviewsymptomSelect{
-  width: 90px;
+  width: 180px;
   height: 30px;
+}
+
+.reviewEval{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px 0;
+}
+
+.reviewEvalTitle{
+  margin-right: 10px;
+}
+
+.reviewEvalInput{
+  width: 50px;
+  height: 25px;
+}
+
+.reviewEvalSpan{
+  font-size: 17px;
+  margin: 0 5px;
 }
