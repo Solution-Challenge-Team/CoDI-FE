@@ -6,6 +6,7 @@ import Hiring from "pages/hiring/Hiring";
 import Community from "pages/community/Community";
 import Hospital from "pages/hospital/hospital";
 import HospitalDetail from "pages/hospital/HospitalDetail";
+import ReviewEditor from "pages/hospital/ReviewEditor";
 import Nav from "../layout/nav/Nav";
 
 const Routers = () => {
@@ -27,6 +28,7 @@ const Routers = () => {
           <Route path="/community" element={<Community />} />
           <Route path="/hospital" element={<Hospital />} />
           <Route path="/hospital/:id" element={<HospitalDetail />} />
+          <Route path="/ReviewEditor" element={<ReviewEditor/>}/>
           {/* <Route path="*" element={<ErrorPage />} /> */}
         </Routes>
       </Router>
