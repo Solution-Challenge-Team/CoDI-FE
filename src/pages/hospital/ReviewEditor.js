@@ -22,6 +22,9 @@ const ReviewEditor = () =>{
             <input className='reviewEvalInput'/>
             <span className='reviewEvalSpan'> / 5</span>
           </div>
+          <div className='reviewBtn'>
+            <button className='reviewEnrollBtn'>리뷰 등록</button>
+          </div>
         </div>
       </div>
     </div>

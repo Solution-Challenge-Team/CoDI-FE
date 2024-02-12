@@ -46,3 +46,10 @@
   font-size: 17px;
   margin: 0 5px;
 }
+
+.reviewEnrollBtn{
+  background-color: #D2F7FF;
+  width: 180px;
+  height: 25px;
+  border-radius: 5px;
+}
