@@ -7,7 +7,7 @@ const ReviewEditor = () =>{
       </div>
       <div className="reviewInput">
         <textarea className="reviewTextarea"/>
-        <div className='reviewSymptom'>
+        <div className='reviewSymptomEval'>
           <select className="reviewsymptomSelect">
             <option value="visual">시각장애</option>
             <option value="hearing">청각장애</option>
@@ -17,6 +17,10 @@ const ReviewEditor = () =>{
             <option value="mental">정신장애</option>
             <option value="etc">기타</option>
           </select>
+          <div className='reviewEval'>
+            <input className='reviewEvalInput'/>
+            <span className='reviewEvalSpan'> / 5</span>
+          </div>
         </div>
       </div>
     </div>
