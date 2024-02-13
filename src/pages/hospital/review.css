@@ -53,3 +53,26 @@
   height: 25px;
   border-radius: 5px;
 }
+
+/*ReviewList & ReviewItem*/
+.ReviewList{
+  margin-top: 30px;
+}
+
+.reviewListTitle{
+  font-size: 18px;
+  font-weight: 600; 
+  margin-bottom: 10px;
+}
+
+.ReviewItem{
+  background-color: #CED1D9;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+.reviewUserName{
+  font-size: 17px;
+  font-weight: 500;
+}
