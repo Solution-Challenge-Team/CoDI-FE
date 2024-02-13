@@ -7,6 +7,9 @@ const ReviewItem = ({id, userName, evaluation, symptom, content}) =>{
         <span className='reviewItemEvaluation'>[별점: {evaluation}/5]</span>
         <span className='reviewItemSymptom'>[증상: {symptom}]</span>
       </div>
+      <div className='reviewItemMain'>
+        <span className='reviewItemContent'>{content}</span>
+      </div>
     </div>
   )
 }

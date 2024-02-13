@@ -80,3 +80,11 @@
 .reviewItemEvaluation{
   margin: 0 10px;
 }
+
+.reviewItemMain{
+  margin-top: 10px;
+}
+
+.reviewItemContent{
+  font-size: 14px;
+}
